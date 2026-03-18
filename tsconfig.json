@@ -18,12 +18,14 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@app/*": ["src/app/*"],
-      "@pages/*": ["src/pages/*"],
-      "@widgets/*": ["src/widgets/*"],
-      "@features/*": ["src/features/*"],
+      "@ui/*": ["src/ui/*"],
+      "@game/*": ["src/game/*"],
       "@entities/*": ["src/entities/*"],
-      "@shared/*": ["src/shared/*"]
+      "@systems/*": ["src/systems/*"],
+      "@components/*": ["src/components/*"],
+      "@scenes/*": ["src/scenes/*"],
+      "@assets/*": ["src/assets/*"],
+      "@utils/*": ["src/utils/*"]
     }
   },
   "include": ["src"],
