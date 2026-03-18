@@ -28,16 +28,17 @@ export default defineConfig(async () => {
 
   return {
     plugins,
-  resolve: {
-    alias: {
-      '@ui': path.resolve(__dirname, 'src/ui'),
-      '@game': path.resolve(__dirname, 'src/game'),
-      '@entities': path.resolve(__dirname, 'src/entities'),
-      '@systems': path.resolve(__dirname, 'src/systems'),
-      '@components': path.resolve(__dirname, 'src/components'),
-      '@scenes': path.resolve(__dirname, 'src/scenes'),
-      '@assets': path.resolve(__dirname, 'src/assets'),
-      '@utils': path.resolve(__dirname, 'src/utils'),
+    resolve: {
+      alias: {
+        '@ui': path.resolve(__dirname, 'src/ui'),
+        '@game': path.resolve(__dirname, 'src/game'),
+        '@entities': path.resolve(__dirname, 'src/entities'),
+        '@systems': path.resolve(__dirname, 'src/systems'),
+        '@components': path.resolve(__dirname, 'src/components'),
+        '@scenes': path.resolve(__dirname, 'src/scenes'),
+        '@assets': path.resolve(__dirname, 'src/assets'),
+        '@utils': path.resolve(__dirname, 'src/utils'),
+      },
     },
-  },
+  }
 })

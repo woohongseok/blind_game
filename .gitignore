@@ -5,3 +5,4 @@ dist-tsnode
 release
 *.local
 .DS_Store
+.vercel
